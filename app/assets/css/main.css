@@ -1,0 +1,94 @@
+@import "tailwindcss";
+/* @source "../views"; */
+
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+/* .khe-green {
+    color: #18a279;
+} */
+
+.khe-green {
+  color: #f04400;
+}
+
+/* .khe-green-btn {
+    background-color: #18a279;
+    border-color: #18a279 !important;
+    background-color: #18a279 !important;
+    color: #fff !important;
+} */
+
+.khe-green-btn {
+  background-color: #f04400;
+  border-color: #f04400 !important;
+  background-color: #f04400 !important;
+  color: #fff !important;
+}
+
+.khe-green-btn:hover:not(.disabled):not(:disabled) {
+  box-shadow: 0 8px 25px -8px #61dd99;
+}
+
+/* .login-logo {
+    width: 6rem;
+    height: 3rem;
+} */
+
+.login-logo {
+  width: 7rem;
+  height: 6rem;
+}
+
+.center-logo-items {
+  align-items: center;
+}
+
+/* .khe-navbar-logo {
+    width: 13rem;
+} */
+
+.khe-navbar-logo {
+  width: 3rem !important;
+}
+
+.sparq-navbar-header {
+  color: #f04400;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.mobile-landing-nav {
+  background: #101828;
+  height: 6.5rem;
+  padding: 1.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+}
+
+.landing-hamburger {
+  height: 2rem;
+  width: 2rem;
+}
+
+.hero-section {
+  height: 115dvh;
+  background-image: url("/public/images/Container.png");
+  /* Common background properties */
+  background-repeat: no-repeat;        /* Prevent the image from repeating */
+  background-size: cover;              /* Scale image to cover entire area */
+  background-position: center center;  /* Center the image horizontally and vertically */
+  /* background-attachment: scroll;       Scrolls with the page (use 'fixed' for parallax effect) */
+  background-color: #000;  
+      
+}
