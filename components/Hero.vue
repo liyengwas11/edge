@@ -85,7 +85,7 @@
         <li class="menu-list">Testimonials</li>
         <li class="menu-list">Contact</li>
       </ul>
-      <a class="get-started-btn" href="/register"> Get Started</a>
+      <a class="get-started-btn" href="#"> Get Started</a>
     </div>
     <div class="hero-content-container">
       <div class="hero-info">
@@ -103,8 +103,21 @@
       </div>
       <div class="access-dashboard">
         <div class="access-header">
-          <h4>Book A Demo</h4>
+          <h4>Contact Us</h4>
           <p>Monitor your fleet in real-time</p>
+        </div>
+        <div class="company-code-form">
+          <form class="auth-login-form mt-2">
+            <div class="form-group">
+              <label for="company-code" class="form-label">Name</label>
+              <input type="text" class="company-code-input" id="login-company-code" placeholder="Name" autofocus />
+            </div>
+            <div class="form-group">
+              <label for="company-code" class="form-label">Email Address</label>
+              <input type="email" class="company-code-input" id="login-company-code" placeholder="Email Address" />
+            </div>
+            <button type="submit" class="submit-code">Submit</button>
+          </form>
         </div>
       </div>
     </div>
@@ -356,6 +369,7 @@ export default {
 
 .form-label {
   margin-bottom: 0.5rem;
+  color: #6b7280;
 }
 
 .company-code-input {
