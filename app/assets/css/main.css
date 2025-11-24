@@ -82,7 +82,7 @@
 }
 
 .hero-section {
-  height: 115dvh;
+  height: auto;
   background-image: url("/images/Container.png");
   /* Common background properties */
   background-repeat: no-repeat;        /* Prevent the image from repeating */

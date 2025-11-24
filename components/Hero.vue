@@ -142,6 +142,7 @@ export default {
   box-sizing: border-box;
 }
 
+
 @media (max-width: 1440px) {
   .desk-landing-nav {
     display: none;
@@ -250,7 +251,7 @@ export default {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
     padding-top: 0rem !important;
-    height: 100dvvh !important;
+    height: auto !important;
   }
 
   .hero-content-container {

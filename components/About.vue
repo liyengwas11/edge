@@ -7,18 +7,16 @@
       <div class="abt-info-container">
         <div class="abt-desc">
           <h5 class="abt-heading">Built for Africa, <span>Powered by Innovation</span></h5>
-          <p class="abt-text">We understand the unique challenges of fleet management in Africa. Our platform delivers world-class solutions designed for local conditions.</p>
+          <p class="abt-text">We understand the unique challenges of fleet management in Africa. Our platform delivers
+            world-class solutions designed for local conditions.</p>
           <ul class="feature-container">
             <li v-for="(feature, index) in features" :key="index" class="feature">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                 <path
                   d="M18.1675 8.92707C18.5481 10.7948 18.2769 12.7366 17.399 14.4286C16.5212 16.1205 15.0899 17.4604 13.3438 18.2248C11.5976 18.9892 9.6422 19.1319 7.80359 18.629C5.96498 18.1262 4.35433 17.0082 3.24024 15.4616C2.12614 13.9149 1.57594 12.0331 1.68139 10.1299C1.78684 8.22669 2.54157 6.41715 3.81972 5.00305C5.09786 3.58895 6.82216 2.65577 8.70506 2.35912C10.588 2.06247 12.5157 2.42029 14.1667 3.37291"
-                  stroke="#FF4D1E"
-                  stroke-width="1.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path d="M7.5 9.76034L10 12.2603L18.3333 3.927" stroke="#FF4D1E" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+                  stroke="#FF4D1E" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M7.5 9.76034L10 12.2603L18.3333 3.927" stroke="#FF4D1E" stroke-width="1.66667"
+                  stroke-linecap="round" stroke-linejoin="round" />
               </svg>
               <p>{{ feature }}</p>
             </li>
@@ -51,6 +49,7 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   box-sizing: border-box;
 }
 
+
 @media (min-width: 1440px) {
   .abt-container {
     padding-bottom: 1rem !important;
@@ -66,6 +65,7 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
     flex-direction: row !important;
     gap: 3rem;
   }
+
   .abt-desc {
     margin-bottom: 0rem;
   }
@@ -97,7 +97,7 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   }
 
   .abt-contact {
- padding: 0.8rem 1.5rem !important;
+    padding: 0.8rem 1.5rem !important;
   }
 }
 
@@ -125,7 +125,8 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
+  /* 142.857% */
   border-radius: 2097150rem;
   background: rgba(255, 77, 30, 0.2);
   width: fit-content;
@@ -143,8 +144,10 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.5rem; /* 125% */
+  line-height: 2.5rem;
+  /* 125% */
   margin-bottom: 1.5rem;
+
   span {
     color: #ff4d1e;
   }
@@ -156,7 +159,8 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.75rem; /* 140% */
+  line-height: 1.75rem;
+  /* 140% */
   margin-bottom: 1.5rem;
 }
 
@@ -169,7 +173,8 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem; /* 150% */
+  line-height: 1.5rem;
+  /* 150% */
   margin-bottom: 0.8rem;
 }
 
@@ -190,7 +195,8 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.75rem; /* 155.556% */
+  line-height: 1.75rem;
+  /* 155.556% */
 }
 
 .abt-contact {
@@ -218,19 +224,23 @@ const features = ["Easy Excel upload (CSV/XLS/XLSX) with instant validation", "A
   border-radius: 0.5rem;
   padding: 1.2rem 1rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
   .year {
     color: #ff4d1e;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 2rem; /* 133.333% */
+    line-height: 2rem;
+    /* 133.333% */
   }
+
   .location {
     color: #4a5565;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.25rem; /* 142.857% */
+    line-height: 1.25rem;
+    /* 142.857% */
   }
 }
 </style>
